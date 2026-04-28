@@ -38,3 +38,57 @@ header {
   font-size: 20px;
   border: none;
 }
+main section:nth-child(1) {
+  width: 100%;
+  height: 725px;
+  overflow: hidden;
+  position: relative;
+}
+main section:nth-child(1) img {
+  width: 725px;
+  height: 750px;
+  transform: translateX(600px);
+  transition: all 3s ease 1s;
+  position: absolute;
+}
+main section:nth-child(1) .text {
+  width: 850px;
+  height: 300px;
+  transform: translate(50px, 100%);
+  transition: all 2s ease-in-out 1s;
+  position: absolute;
+  z-index: 1;
+}
+h1 {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 100%;
+  color: #000000;
+  text-transform: uppercase;
+}
+h1 b {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 100%;
+  color: #f5333f;
+  text-transform: uppercase;
+}
+main section:nth-child(1) .text p {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 100%;
+  color: #000000;
+  padding: 20px 0px;
+}
+main section:nth-child(1) .text button {
+  width: 250px;
+  height: 63px;
+  border-radius: 5px;
+  background-color: #f5333f;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
